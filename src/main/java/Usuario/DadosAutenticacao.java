@@ -1,6 +1,14 @@
-package Usuario;
+import jakarta.validation.constraints.NotBlank;
 
-public record DadosAutenticacao(String login, String senha) {
+public record DadosAutenticacao(
+        @NotBlank
+        String login,
+
+        @NotBlank
+        String senha
+) {
 
 }
+
+
 

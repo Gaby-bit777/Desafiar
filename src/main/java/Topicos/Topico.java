@@ -1,4 +1,4 @@
-package com.seuprojeto.forum.domain.topico;
+package Topicos;
 
 import com.seuprojeto.forum.domain.autor.Autor;
 import com.seuprojeto.forum.domain.curso.Curso;
@@ -8,10 +8,14 @@ import jakarta.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "topicos", uniqueConstraints = @UniqueConstraint(columnNames = {"titulo", "mensagem"}))
+@Table(
+        name = "topicos",
+        uniqueConstraints = @UniqueConstraint(columnNames = {"titulo", "mensagem"})
+)
 public class Topico {
 
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NotNull
@@ -20,21 +24,24 @@ public class Topico {
     @NotNull
     private String mensagem;
 
-    @Column(name = "data_criacao")
+    @Column(name = "data_criacao", nullable = false, updatable = false)
     private LocalDateTime dataCriacao = LocalDateTime.now();
 
     @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
     private StatusTopico status = StatusTopico.NAO_RESPONDIDO;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "autor_id")
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "autor_id", nullable = false)
     private Autor autor;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "curso_id")
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "curso_id", nullable = false)
     private Curso curso;
 
-    // Getters, setters, construtores omitidos para brevidade
+    // Construtores, getters e setters omitidos para brevidade
+
 }
+
 
 

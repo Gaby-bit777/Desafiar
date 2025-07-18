@@ -1,23 +1,45 @@
+package com.seuprojeto.forum.security.service;
+
+import com.auth0.jwt.JWT;
+import com.auth0.jwt.algorithms.Algorithm;
+import com.seuprojeto.forum.domain.usuario.Usuario;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import java.time.Duration;
+import java.time.Instant;
+
 @Service
 public class TokenService {
 
-    private static final String CHAVE_SECRETA = "minha-chave-secreta";
+    @Value("${jwt.secret}")
+    private String secret;
+
+    @Value("${jwt.expiration}")
+    private String expiration; // valor em horas (ex: "2" para 2h)
 
     public String gerarToken(Usuario usuario) {
-        return Jwts.builder()
-                .setSubject(usuario.getLogin())
-                .setIssuedAt(new Date())
-                .setExpiration(new Date(System.currentTimeMillis() + 86400000)) // 1 dia
-                .signWith(SignatureAlgorithm.HS256, CHAVE_SECRETA)
-                .compact();
+        Algorithm algoritmo = Algorithm.HMAC256(secret);
+        return JWT.create()
+                .withIssuer("forumhub-api")
+                .withSubject(usuario.getLogin())
+                .withExpiresAt(dataExpiracao())
+                .sign(algoritmo);
     }
 
-    public String validarToken(String token) {
-        return Jwts.parser()
-                .setSigningKey(CHAVE_SECRETA)
-                .parseClaimsJws(token)
-                .getBody()
+    private Instant dataExpiracao() {
+        long expHoras = Long.parseLong(expiration);
+        return Instant.now().plus(Duration.ofHours(expHoras));
+    }
+
+    public String getSubject(String tokenJWT) {
+        return JWT.require(Algorithm.HMAC256(secret))
+                .withIssuer("forumhub-api")
+                .build()
+                .verify(tokenJWT)
                 .getSubject();
     }
 }
+
+
 

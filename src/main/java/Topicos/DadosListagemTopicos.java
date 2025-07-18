@@ -1,8 +1,11 @@
-package com.seuprojeto.forum.dto;
+package Topicos;
 
 import com.seuprojeto.forum.domain.topico.StatusTopico;
 import java.time.LocalDateTime;
 
+/**
+ * DTO para listagem resumida de tópicos.
+ */
 public record DadosListagemTopico(
         String titulo,
         String mensagem,
@@ -10,5 +13,7 @@ public record DadosListagemTopico(
         StatusTopico status,
         String autor,
         String curso
-) {}
+) {
+}
+
 

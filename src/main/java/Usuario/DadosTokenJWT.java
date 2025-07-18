@@ -1,4 +1,6 @@
 package Usuario;
 
-public class DadosTokenJWT {
+public record DadosTokenJWT(String token) {
+
 }
+

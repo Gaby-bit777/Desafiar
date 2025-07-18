@@ -4,32 +4,94 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="909713be-6f34-4c8c-8322-52ec7b671dfa" name="Changes" comment="" />
+    <list default="true" id="909713be-6f34-4c8c-8322-52ec7b671dfa" name="Changes" comment="">
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/pom.xml" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/pom.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/db/migration/V1_criar_tabela_topico.sql" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/db/migration/V1_criar_tabela_topico.sql" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Controller/AutenticacaoController.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Controller/AutenticacaoController.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Controller/TopicoController.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Controller/TopicoController.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Security/SecurityConfiguration.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Security/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Security/SecurityFilter.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Security/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Service/AutenticacaoService.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Service/AutenticacaoService.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Service/TokenService.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Service/TokenService.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Topicos/DadosAtualizacaoTopico.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Topicos/DadosAtualizacaoTopico.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Topicos/DadosDetalhamentoTopico.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Topicos/DadosDetalhamentoTopico.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Topicos/DadosListagemTopicos.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Topicos/DadosListagemTopicos.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Topicos/Topico.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Topicos/Topico.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Topicos/TopicoRepository.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Topicos/TopicoRepository.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/TratadorDeErros.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/TratadorDeErros.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Usuario/DadosAutenticacao.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Usuario/DadosAutenticacao.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Usuario/DadosTokenJWT.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Usuario/DadosTokenJWT.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Usuario/Usuario.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Usuario/Usuario.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Usuario/UsuarioRepository.java" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Usuario/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/resources/application.properties" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Gaby-bit777"
+  }
 }]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d5cb7d55-bf3d-43e9-987d-bc156e448193" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Gaby-bit777/Desafiar.git",
+    "accountId": "d5cb7d55-bf3d-43e9-987d-bc156e448193"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2zsmwkLE66jkCovKxIas8Lih1ni" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/Users/gabri/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Alura/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Desafiar Topicos.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gabri/OneDrive/Desktop/Alura.DesafiarTopicos/Desafiar Topicos/src/main/java/Alura/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Usuario" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Desafiar Topicos" />
